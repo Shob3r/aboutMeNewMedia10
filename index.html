@@ -64,7 +64,20 @@
                 margin-left: auto;                                                   
                 margin-right: auto;                                                   
                 width: 50%;                                                   
-            }                                                   
+            }           
+            
+            .AboutGrid2 {
+                display: grid;                                                   
+                grid-template-columns: 1fr 1fr;                                                   
+                grid-auto-rows: 10px;                                                   
+                grid-gap: 350px;   
+            }
+
+            .AboutGridItem2 {
+                display: flex;                                                   
+                align-items: left;                                                   
+                justify-content: space-evenly;
+            }
         </style>                                                                                                   
     </head>                                                                                                   
                                                                                                        
@@ -106,6 +119,12 @@
         <img src="media/Images/lyrics.png" class="Image">
         <h1 class="RANDOMFACTs">I listen to music that does not have lyrics</h1>
         <h1 style="margin-bottom:150px"></h1>
-
+        <h1 class="meDesc">finally, here are the social media apps i use the most:</h1>
+        <div class="AboutGrid2">
+            <div class="AboutGridItem2"><img</div>
+            <div class="AboutGridItem2"></div>
+            <div class="AboutGridItem2"></div>
+            <div class="AboutGridItem2"></div>
+        </div>
     </body> 
 </html>
